@@ -1,0 +1,58 @@
+/* 
+    Introduction
+        Understand the role of selectors in CSS and how they help target specific HTML elements.
+    CSS #id Selector
+        Learn how to use the ID selector to target and style specific HTML elements with unique identifiers.
+    CSS Class Selector
+        Explore how to use the class selector to style HTML elements with common attributes.
+    CSS * Selector
+        Discover how to select and style all HTML elements using the universal selector.
+    CSS Attribute Selector
+        Learn to target HTML elements based on their attributes using attribute selectors.
+    CSS Pseudo-classes
+        Explore pseudo-classes that allow you to style elements based on their state or position.
+    CSS Element Selector
+        Understand the basic element selector and how it targets specific HTML elements.
+*/
+
+/* Class Selector */
+.heading {
+    color: green;
+    font-size: 20px;
+}
+
+/* Id Selector */
+#name {
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Element Selector */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+/* Attribute Selector */
+button[type="submit"] {
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Attribut Selector with Pseudo Class*/
+button[type="submit"]:hover {
+    background-color: grey;
+}
+
+/* Global selector - select all the elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
