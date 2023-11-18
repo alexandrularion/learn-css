@@ -54,14 +54,12 @@ Welcome to the CSS Learning Project! This project is designed to help you learn 
      - Discover pseudo-elements that allow you to style parts of an element's content, such as ::before and ::after.
    - CSS Float
      - Understand the float property and its role in controlling the layout of elements.
-   - CSS Image Sprites
-     - Learn about image sprites, a technique for combining multiple images into a single image to reduce HTTP requests.
    - CSS Units
      - Explore different CSS units (e.g., pixels, percentages, ems) for specifying size and measurements.
    - CSS z-index Property
      - Understand the z-index property and its role in layering and positioning elements.
 
-4. CSS Designing
+4. CSS Layouts
    - Introduction
      - Learn the fundamentals of designing web layouts with CSS, including grids, tables, and the box model.
    - CSS Grid Layout Module
