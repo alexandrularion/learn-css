@@ -1,0 +1,87 @@
+/* 
+    Introduction
+        Get an overview of CSS properties and their significance in styling web pages.
+    CSS Colors
+        Learn how to set colors in CSS, including named colors, hexadecimal, RGB, and HSL values.
+    CSS Background
+        Explore background properties in CSS to style element backgrounds.
+    CSS Borders
+        Learn to create and style borders around HTML elements using CSS properties.
+    CSS Margins and Padding
+        Understand how to control the spacing around elements using margin and padding properties.
+    CSS Fonts
+        Learn how to set font properties in CSS to style text content.
+    CSS cursor Property
+        Explore the cursor property to change the mouse cursor's appearance on specific elements.
+    CSS Combinators
+        Learn about combinators that help you select and style elements based on their relationship to other elements.
+    CSS Pseudo Elements
+        Discover pseudo-elements that allow you to style parts of an element's content, such as ::before and ::after.
+    CSS Float
+        Understand the float property and its role in controlling the layout of elements.
+    CSS Units
+        Explore different CSS units (e.g., pixels, percentages, rems) for specifying size and measurements.
+    CSS z-index Property
+        Understand the z-index property and its role in layering and positioning elements.
+*/
+/*
+---------------[UNITS]------------------
+absolute units
+    - px
+    - cm
+    - mm
+relative units
+    - vh
+    - vw
+    - %
+    - rem
+    - em
+-----------------[COLORS]----------------
+types of representation
+    - Hex: #000000
+    - RGBA: rgba(0,0,0,1)
+    - RGB: rgb(0,0,0)
+    - HSL: hsl(0, 0%, 0%)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+    background: linear-gradient(90deg, rgba(6, 13, 212, 0.4), rgba(100, 100, 100, 0.8)),url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    line-height: 35px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ededed;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
